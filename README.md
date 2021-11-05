@@ -1,2 +1,2 @@
 # hoomaluhia
-testing
+[View Demo](https://christelsm.github.io/hoomaluhia/)
