@@ -1,0 +1,24 @@
+/* RESPONSIVE IMAGES */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* RESPONSIVE VIDEO */
+/* Trick from source: https://codepen.io/obritodesign/pen/EObzQO */
+// @media (min-aspect-ratio: 16/9) {
+//     .video-bg-wrapper {
+//       height: 300%;
+//       top: -100%;
+//     }
+//   }
+//   @media (max-aspect-ratio: 16/9) {
+//     .video-bg-wrapper {
+//       width: 300%;
+//       left: -100%;
+//     }
+//   }
+  
+//   body {
+//     margin:0;
+//   }

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ho‘omaluhia Botanical Garden</title>
+
+    <!--ADOBE FONTS-->
+    <link rel="stylesheet" href="https://use.typekit.net/iso2ttq.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- MAIN CSS STYLES -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+
+    <header class="site-header">
+        <div class="site-id">
+            <div class="logo">
+                <a href="index.html"><img src="img/hoomaluhia-logo-500x500.png" alt="Logo Placeholder"></a>
+            </div>
+            <h1 class="hide-visually"><a href="index.html">Ho‘omaluhia Botanical Garden</a></h1>
+        </div>
+        <nav class="site-nav" data-navstate="closed">
+            <button class="menu-button">
+                <span class="hide-visually">Menu</span>
+                <svg width="30" height="30">
+                    <title>Menu</title>
+                    <rect id="menubar-top" y="0" width="30" height="3"></rect>
+                    <rect id="menubar-middle" y="8" width="30" height="3"></rect>
+                    <rect id="menubar-bottom" y="16" width="30" height="3"></rect>
+                </svg>
+            </button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Subpage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+
+    <main class="site">
+
+        <section class="recreation">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/hoomaluhia-drawingpainting-tumbnail-large.jpg">
+                        <h7>Drawing <br>& Painting</h7>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/Red-billed leiothrix.jpg"> 
+                        <h7>Tours</h7>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/hoomaluhia-fishing-thumbnail-large.jpg">
+                        <h7>Fishing</h7>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/hoomaluhia-camping-thumbnail-large.jpg">
+                        <h7>Camping</h7>
+                    </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
+
+    <footer class="site-footer">
+        <nav class="site-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subpage.html">About Us</a></li>
+                <li><a href="subpage.html">Directory</a></li>
+                <li><a href="subpage.html">Recreation</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <!-- SMOOTH SCROLL -->
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            // pagination: {
+            //   el: ".swiper-pagination",
+            //   clickable: true,
+            // },
+        });
+    </script>
+
+</body>
+
+</html>

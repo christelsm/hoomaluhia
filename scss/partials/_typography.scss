@@ -1,0 +1,139 @@
+/* BASE TEXT COLORS */
+body {color: $color-text-body;}
+
+h1,h2,h3,h4,h5,h6 {color: $color-text-headings;}
+
+
+
+/* BASE TEXT FONTS */
+body {font-family: $font-family-serif-caption;}
+
+h1,h2,h3,h4,h5,h6 {
+font-family: $font-family-sans;
+}
+
+h7{
+    font-family: $font-family-serif-display;
+}
+
+
+/* BASE TYPOGRAPHY */
+body {
+    font-size: 100%;
+    line-height: 1.4;
+}
+
+h1,h2,h3,h4,h5,h6,p {margin: 0 0 .5em 0;}
+
+/* TYPOGRAPHIC SCALE */
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: .5;
+
+}
+h2 {
+    font-size: 2.25em;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.1;
+
+}
+h3 {
+    font-size: 2em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.2;
+
+}
+h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.2;
+
+}
+h5 {
+    font-size: 1.25em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.2;
+
+}
+h6 {
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.2;
+}
+
+h7 {
+    font-size: 4em;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.1;
+
+}
+
+
+
+
+/* LIMIT NUMBER OF CHARACTERS PER LINE */
+P {
+    max-width: 30em;
+}
+
+/* LINKS */
+a {
+    color: #000000;
+    &:hover {
+        color: #ffffff;
+    }
+}
+
+/* HORIZONTAL LINE */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(0,0,0,.1);
+    margin: 3em, 0;
+}
+
+
+
+/* TYPE SPECIMEN */
+.headline {
+    font-size: 4em;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    color: $color-accent ;
+}
+
+.subheadline {
+    font-size: 2.5em;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 0.25em 0;
+    color: $color-lightgrey;
+}
+
+.section-heading {
+    font-family: $font-family-sans;
+    color: $color-accent-gold;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    margin: 3em 0;
+
+}
+
+/* HELPERS */
