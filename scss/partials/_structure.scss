@@ -44,16 +44,24 @@
     }
 }
 
+/* PARALLAX */
+
 
 
 section {
     padding: 4em 0;
-    min-height: 100vh;
+    min-height: 80vh;
     
+    
+    &.no-min-height {
+      min-height: 0;  
+    }
+
     &.section-centered {
         display: grid;
         place-items: center;
     }
+
 }
 
 /* HERO SECTION */
@@ -135,4 +143,19 @@ section {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+  }
+
+  /* TEXT ON IMAGE */
+
+  .img-wrapper img {
+      display: block;
+      border-radius: 25px;
+  }
+
+  .txt-wrapper {
+      position: absolute;
+      top: 50%;   
+      left: 50%;
+      transform: translate(-50%,-50%);
+     
   }
