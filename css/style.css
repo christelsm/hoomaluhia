@@ -289,13 +289,37 @@ body {
   }
 }
 
-#directory.container.row {
-  -ms-flex-line-pack: top;
-      align-content: top;
+section#directory.animate-on-scroll .container .row {
+  -ms-flex-item-align: top;
+      -ms-grid-row-align: top;
+      align-self: top;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+section#directory.animate-on-scroll .container .row .one-fourth::before {
+  content: "";
+  display: block;
+  margin-top: 0.5em;
   border-top: 2px solid #E1A734;
+  width: 50px;
+  padding-top: 5px;
+}
+section#directory.animate-on-scroll .container .row div.one-fourth.no-border::before {
+  border-top: none;
+}
+section#directory.animate-on-scroll .container .row div.one-fourth.no-border {
+  margin-right: 50px;
+}
+section#directory.animate-on-scroll .container .row a {
+  color: white;
+  text-decoration: none;
+}
+
+section#directory.animate-on-scroll .container {
+  max-width: 1200px;
 }
 
 .demo .row {

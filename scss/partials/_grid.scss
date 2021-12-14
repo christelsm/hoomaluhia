@@ -51,11 +51,36 @@ $gridgap: 2%;
     }
 }
 
-#directory.container.row {
-    align-content: top;
+section#directory.animate-on-scroll .container .row {
+    align-self: top;
     display: flex;
+    flex-wrap: nowrap;
+
+    .one-fourth::before {
+    content: "";
+    display: block;
+    margin-top: 0.5em;
     border-top: 2px solid $color-accent-gold;
+    width: 50px;
+    padding-top: 5px;
+    }
+
+    div.one-fourth.no-border::before {
+        border-top: none;
+       
+    }
+    div.one-fourth.no-border {
+        margin-right: 50px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
 }
+section#directory.animate-on-scroll .container {
+    max-width: 1200px;
+}
+
 
 //FOR DEMO PURPOSES ONLY
 
