@@ -51,6 +51,12 @@ $gridgap: 2%;
     }
 }
 
+#directory.container.row {
+    align-content: top;
+    display: flex;
+    border-top: 2px solid $color-accent-gold;
+}
+
 //FOR DEMO PURPOSES ONLY
 
 .demo {
