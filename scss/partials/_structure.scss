@@ -83,6 +83,7 @@ section {
     h1 {
         color: white;
     }
+    
 
     .container {
         width: 100%;
@@ -90,6 +91,9 @@ section {
     }
     h1 {
         margin-bottom: .25em;
+    }
+    .title {
+        text-align: center;
     }
     p {
         margin: 1em 0;
@@ -100,7 +104,6 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    border: 5px solid red;
     height: 100%;
     width: 100%;
 
@@ -118,7 +121,6 @@ section {
   }
   
   .video-bg-wrapper {
-    background: #000;
     position: absolute;
     top: 0;
     right: 0;

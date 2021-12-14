@@ -322,6 +322,39 @@ section#directory.animate-on-scroll .container {
   max-width: 1200px;
 }
 
+section#contactus.animate-on-scroll .container .row {
+  -ms-flex-item-align: top;
+      -ms-grid-row-align: top;
+      align-self: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+section#contactus.animate-on-scroll .container .row .one-fourth::before {
+  content: "";
+  display: block;
+  margin-top: 0.5em;
+  border-top: 2px solid #E1A734;
+  width: 50px;
+  padding-top: 5px;
+}
+section#contactus.animate-on-scroll .container .row div.one-fourth.no-border::before {
+  border-top: none;
+}
+section#contactus.animate-on-scroll .container .row div.one-fourth.no-border {
+  margin-right: 50px;
+}
+section#contactus.animate-on-scroll .container .row a {
+  color: white;
+  text-decoration: none;
+}
+
+section#contactus.animate-on-scroll .container {
+  max-width: 1200px;
+}
+
 .demo .row {
   margin-bottom: 0;
 }
@@ -425,6 +458,9 @@ section.section-centered {
 .hero h1 {
   margin-bottom: 0.25em;
 }
+.hero .title {
+  text-align: center;
+}
 .hero p {
   margin: 1em 0;
 }
@@ -433,7 +469,6 @@ section.section-centered {
   position: absolute;
   top: 0;
   left: 0;
-  border: 5px solid red;
   height: 100%;
   width: 100%;
 }
@@ -451,7 +486,6 @@ section.section-centered {
 }
 
 .video-bg-wrapper {
-  background: #000;
   position: absolute;
   top: 0;
   right: 0;
